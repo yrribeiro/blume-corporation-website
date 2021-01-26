@@ -1,0 +1,619 @@
+/* ------ GERAL ------ */
+
+*{
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	box-sizing: border-box;
+}
+
+p{
+	margin: 10px;
+	text-align: justify;
+	font-family: 'Karla', sans-serif;
+	padding-top: 10px;
+}
+
+hr {
+	height: 5px;
+	margin: 0 auto;
+	border-width: 0;
+	background: transparent url(../imagens/linha.png) center no-repeat;
+}
+
+#geral{
+	max-width: 3000px;
+	margin: 0 auto;
+	background-image: url('../imagens/background.png');
+	overflow: hidden;
+}
+
+#blume{
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 70px;
+}
+
+#menu li a:hover{
+	color: #ff0000;
+	border-bottom: 2px solid #EE0000;
+}
+
+#menu{
+	text-align: right; 
+	background-color: #000;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+
+#menu li{
+	list-style: none;
+	display: inline-block; 
+	
+}
+
+#menu li a{
+	color: #b5b5b5;
+	font-size: 13px;
+	text-decoration: none; 
+	padding: 15px; 
+	display: block;
+	transition: all .4s linear;
+	margin-right: 10px; 
+}
+
+#banners li img{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#diretoria{
+	width: 200px;
+	padding: 10px;
+	background-color: #000;
+	float: right;
+	border-radius: 25px;
+	margin: 0 0 10px 10px;
+}
+
+#diretoria h3{
+	color: #b00;
+	margin-bottom: 2px;
+}
+
+#diretoria p{
+	color: #fff;
+	padding: 5px;
+}
+
+#diretoria img{
+	width: 45%;
+	float: right;
+}
+
+/* ------ RODAPÉ ------ */
+
+#rodape{
+	background-color: #606060;
+	padding: 5px;
+}
+
+#blume_footer{
+	width: 30px;
+	float: left;
+	margin: 5px auto;
+}
+
+#textfooter {
+	color: #D3D3D3;
+	float: left;
+	font-size: 12px;
+}
+
+.address {
+	text-align: right;
+	color: #D3D3D3;
+	font-size: 12px;
+}
+
+
+/* ------ INDEX ------ */
+
+#historia{
+	background-color: #cdc9c9;
+	color: #000;
+	border: 1px solid #cdc9c9;
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#fotosindex{
+	width: 900px;
+	margin: 0 auto;
+	background: #f00;
+
+}
+#fotosindex img {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+#h2index{
+	background-color: #4f4f4f;
+	color: #e8e8e8;
+	padding: 10px;
+	text-align: center;	
+}
+
+/* ------ BIOTECNOLOGIA ------ */
+
+#h2bio{
+	background-color: #4f4f4f;
+	color: #e8e8e8;
+	padding: 10px;
+}
+
+#biohistoria{
+	background-color: #CDC9C9;
+	color: #000;
+	border: 1px solid #cdc9c9;
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#biohistoria p{
+	margin: 10px auto;
+	padding: 5px;
+	text-align: justify;
+
+}
+#bioimage img{
+	width: 100%;
+}
+
+#biotextimage img {
+	width: 20%;
+	padding: 5px;
+	margin-left: 100px;
+}
+
+#area_atuacao{
+	background-color: #000;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+}
+
+#medicina{
+	width: 25%;
+	padding: 20px;
+	background-color: #DDD;
+	float: left;
+	margin: 10px 20px auto 200px;
+	
+}
+
+#medicina h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#medicina ul{
+	padding-left: 15px;
+}
+
+
+#agricultura{
+	width: 29%;
+	padding: 28px;
+	background-color: #DDD;
+	float: left;
+	margin: 10px auto;
+}
+
+#agricultura h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#agricultura ul{
+	padding-left: 15px;
+}
+
+
+
+/* ------ SUBSIDIÁRIAS ------ */
+
+#subhistoria {
+	background-color: #CFCFCF;
+	color: #000;
+	border: 1px solid #CFCFCF;
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#subimage img{
+	width: 100%;
+}
+
+#h1sub {
+	color: #e8e8e8; 
+	background-color: #4f4f4f;
+	padding: 10px;
+}
+
+#subhistoria p {
+	color: #696969;
+	text-align: justify;
+	padding: 10px;
+}
+
+#empresas h2{
+	background-color: #222;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+}
+
+#lealtec {
+	width: 250px;
+	padding: 20px;
+	background-color: #DDD;
+	margin: 20px auto;
+}
+
+#lealtec h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#lealtec p{
+	padding-left: 15px;
+}
+
+#lealtec h3:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#udm {
+	width: 250px;
+	padding: 20px;
+	background-color: #DDD;
+	margin: 20px auto;
+}	
+
+#udm h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#udm p{
+	padding-left: 15px;
+}
+
+#udm h3:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#apple {
+	width: 250px;
+	padding: 20px;
+	background-color: #DDD;
+	margin: 20px auto;	
+}
+
+#apple h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#apple p{
+	padding-left: 15px;
+}
+
+#apple h3:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#jaarko {
+	width: 250px;
+	padding: 20px;
+	background-color: #DDD;
+	margin: 20px auto;
+	
+}
+
+#jaarko h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#jaarko p{
+	padding-left: 15px;
+}
+
+#jaarko h3:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#imvobile {
+	width: 250px;
+	padding: 20px;
+	background-color: #DDD;
+	margin:  20px auto;
+}
+
+#imvobile h3{
+	color: #800;
+	margin-bottom: 10px;
+}
+
+#imvobile p{
+	padding-left: 15px;
+}
+
+#imvobile h3:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+/* ------ ENTRETENIMENTO  ------ */
+
+#helixlogo img{
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 600px;
+}
+
+#helixhistoria p{
+	background-color: #d3d3d3;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 15px;
+}
+
+#imghelix1 img{
+	margin: 0 auto auto 230px;
+	padding: 20px;
+}
+
+#imghelix2 img{
+	width: 300px;
+	margin: 0 auto auto 230px;
+	padding: 20px;
+}
+
+#sanjuni img{
+	margin: 0 auto auto 550px;
+	width: 200px;
+}
+
+#helixservices{
+	background-color: #d3d3d3;
+	width: 70%;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#helixservices h2{
+	color: #800;
+	text-align: center;
+}
+
+#helixservices ul{
+	margin: 10px auto;
+	list-style-type: circle;
+}
+
+#moreinfo{
+	background-color: #222;
+	width: 70%;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#moreinfo h2{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	color: #800;
+	font-size: 30px;
+	text-align: center;
+}
+
+#moreinfo p {
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+#moreinfo a:link{
+	text-decoration: none;
+	color: #b00;
+}
+
+#moreinfo p:hover{
+	color: #000;
+	background-color: #000;
+	border-radius: 15px;	
+}
+
+/* ------ IND. AEROESPACIAL ------ */
+
+#titleaero {
+	width: 300px;
+	margin: auto 160px auto 30px;
+	float: left;
+	font-family: 'Squada One', cursive;
+	font-size: 60px;
+}
+
+#imgaero img{
+	width: 800px;
+}
+
+#aerohistoria p{
+	font-family: 'Exo', sans-serif;
+	overflow: hidden;
+	background-color: #eee;
+	margin: 20px 60px auto auto;
+	padding: 10px;
+	width: 800px;
+}
+
+#aeroservice {
+	background-color: #eee;
+	margin: 20px auto;
+	padding: 10px;
+	width: 800px;
+}
+
+#aeroservice h2{
+	color: #800;
+	text-align: center;
+	font-family: 'Squada One', cursive;
+}
+
+#aeroservice ul{
+	list-style-type: circle;
+}
+
+#aeroservice ul li{
+	font-family: 'Exo', sans-serif;
+}
+
+#imgexample img{
+	margin: 0 auto;
+	display: list-item;
+}
+
+#imgexample p{
+	text-align: center;
+	font-size: 15px;
+	color: #777;
+	background-color: #eee;
+	font-family: 'Exo', sans-serif;
+	width: 300px;
+	margin: 10px auto;
+	border-radius: 30px;
+}
+
+#tablelink h1{
+	background-color: #000;
+	width: 30%;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#tablelink a{
+	text-decoration: none;
+	color: #a00;
+	font-family: 'Squada One', sans-serif;
+}
+
+#tablelink a:hover{
+	color: #777;
+	background-color: #eee;
+	width: 30%;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+table {
+	margin: 20px auto;
+}
+
+table th{
+	border: 1px solid #c00;
+	background-color: #444;
+	color: #fff;
+}
+
+table tr{
+	text-align: center;
+	background-color: #999;
+	color: #222;
+}
+
+#skyhomesite h2{
+	background-color: #999;
+	width: 40%;
+	margin: 20px auto;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+
+#skyhomesite p {
+	text-align: center;
+	font-size: 35px;
+	
+}
+
+#skyhomesite a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+#skyhomesite a:hover{
+	color: #500;
+	background-color: #ccc;
+	border-radius: 15px;
+	width: 40%;
+	margin: 0 auto; 
+
+}
+
+/* ------ CONTATOS ------ */
+
+#titlecontact {
+	margin: 20px auto;
+	text-align: center;
+}
+
+#titlecontact h1{
+	font-family: 'Jura', sans-serif;
+	font-size: 40px;
+}
+
+#titlecontact h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	color: #8b8682;
+}
+
+
+#contatoinfo{
+	margin: 20px auto;
+	color: #800;
+	text-align: center;
+}
+
+#contatoinfo p{
+	text-align: center;
+}
+
+#contatoinfo h2{
+	font-size: 30px;
+	color: #d3d3d3;
+	background-color: #555;
+	width: 350px;
+	border-radius: 15px;
+	margin-left: 500px;
+}
